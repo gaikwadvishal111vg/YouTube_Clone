@@ -8,13 +8,18 @@
     
 } */
 .header{
-    /* background-color: rgb(82, 76, 76); */
+    background-color: rgb(82, 76, 76);
     /* border: 5px solid red; */
     padding: 5px;
-    height: 70px;
+    height: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 1000;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
     
 }
 .header .header_left{
@@ -73,7 +78,7 @@ margin-left: 40px;
     display: flex;
     flex-direction: column;
     margin-bottom: 15px;
-    margin-top: 15px;
+    margin-top: 50px;
   }
   .sidebar_category{
     display: flex;
